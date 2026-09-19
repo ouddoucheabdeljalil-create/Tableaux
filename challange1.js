@@ -1,0 +1,5 @@
+const prompt = require('prompt-sync')();
+const numbers = [1,2,3,4,5];
+for(let i = 0 ; i < 5 ; i++){
+    console.log(`number : ${numbers[i]}`);
+}
